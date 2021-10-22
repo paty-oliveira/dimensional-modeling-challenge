@@ -30,3 +30,6 @@ Dimension tables contain the descriptive attributes used by BI applications for 
 
 ### **Facts for measurements**
 Facts are the measurements that result from a business process event and are almost always numeric. A single fact table row has a one-to-one relationship to a measurement event as described by the fact table's grain.
+
+## Dimensional modeling exercises
+1. [Dimensional model prototype for Babysitter Club](babysitter_dw)
