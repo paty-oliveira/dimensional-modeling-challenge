@@ -32,7 +32,7 @@ These are the proposed dimensions that can be created:
     - dim_job: contains information about each babysitter job.
 
 ## **Facts**
-The metric of the fact table is non-addictive measure, representing the amount of money associated to each babysitter job. The information about the metric is extracted from job dimension, that has detailed information about that.
+The metric of the fact table is an addictive measure, representing the amount of money associated to each babysitter job. The information about the metric is extracted from job dimension, that has detailed information about that.
 
 
 
