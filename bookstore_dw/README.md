@@ -8,21 +8,36 @@ The transaction ER diagram is below.
 
 
 ## **Business process overview**
+The business process represented in this exercise is related with bookstore business, i.e., buy and sell books.
 
 
 ## **Granularity**
+The business wants a data warehouse which allows to extract information about:
 
+- Amount of money spent by each member;
+- The delivery time of each order.
 
 ## **Grain**
+Each row of the fact table represents a book order, which has information about member, book, supplier, amount of money spent, and the number of days for delivery.
 
 
 ## **Dimensions**
+These are the proposed dimensions that can be created:
+
+- dim_member: contains information about the member and their main attributes;
+- dim_book: contains information about book and their attributes;
+- dim_supplier: contains information about book supplier and their main attributes;
+- dim_date: contains information about data and time.
 
 
 ## **Facts**
+The metric of the fact table is an addictive measure, representing the amount of money spent by each order made by a member. The amount of money spent in each order is the sum of the purchase price of each book.
 
 
 ## **Conceptual Model**
 
+![Conceptual model of Bookstore](images/conceptual_model.jpeg)
+
 
 ## **Logical Model**
+![Logical model of Bookstore](images/logical_model.jpeg)
