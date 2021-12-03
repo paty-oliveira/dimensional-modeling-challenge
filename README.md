@@ -34,3 +34,4 @@ Facts are the measurements that result from a business process event and are alm
 ## Dimensional modeling exercises
 1. [Dimensional model for Babysitter Club](babysitter_dw)
 2. [Dimensional model for Bookstore](bookstore_dw)
+3. [Dimensional model for Credit Cards](credit_cards_dw)
